@@ -5,8 +5,9 @@
     --color-yellow: #FFF964;
     --color-white: #FFFFFF;
     --br-light-gray: #E5E5E5;
-    --tex-gray: #5E5E5E;
-    background: #FFFFFF;
+    --text-gray: #5E5E5E;
+    --text-green: #02B814;
+
 }
 
 * {
@@ -36,7 +37,7 @@ nav h1 {
 }
 
 #pizzas {
-    padding: 40px 0px;
+    padding: 20px 0px;
     background-color: var(--br-light-gray);
 }
 
@@ -52,5 +53,35 @@ nav h1 {
 
 .pizza-card-description {
     background-color: var(--color-white);
-    border-radius: opx 12px 12px 0px;
+    border-radius: 0px 12px 12px 0px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
+
+.pizza-card-description h3 {
+    color: var(--tex-gray);
+    font-size: 24px;
+}
+
+.pizza-card-description p {
+    color: var(--tex-gray);
+    font-size: 14px;
+}
+
+.pizza-card-description h4 {
+    color: var(--text-green);
+    font-size: 24px;
+}
+
+#comments {
+    padding: 40px 0px;
+}
+
+#comments h2 {
+    text-align: center;
+    font-size: 32px;
+    color: var(--text-gray);
+}
+
